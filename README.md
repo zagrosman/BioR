@@ -1,4 +1,4 @@
-# BioR
+# >))))'>  >))))'>  BioR  >))))'>   >)))'>
 This page will try to support you for finding the most popular R scripts to handle biological projects. As a case in point, when you try to perform statistical analysis for your data, it is inevitably necessary you follow the right way to finalize the target query. So, on this GitHub page, different types of R scripts will be shared with academic users for enhancing the quality of their researches. Note that most of all scripts uploaded here are free code sources while some others might need to pay for reaching them. 
 
 # Areas of coverage
@@ -10,5 +10,4 @@ For obtaining target scripts, you should go within its folder and then try to cl
 # Updates 
 Mainly, the information of each uploaded folder might not be updated after appending its content to a related branch in GitHub. This means that the uploaded scripts work sufficiently for different operating systems and the developer has not intent to update most of them. But if the respected users report any bugs for lodged scripts, then we can support them for solving the occurred problem. 
 
-# Best Regards
-# Hassan Rasouli
+
