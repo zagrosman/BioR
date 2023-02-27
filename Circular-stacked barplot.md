@@ -5,7 +5,7 @@
 
 # Code
 
-# Load necessary packages
+# Load necessary packages 
 ```
 library(ggplot2)
 ```
