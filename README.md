@@ -1,4 +1,4 @@
-# >))))'>  >))))'>  BioR  >))))'>   >)))'>
+# Rcodes for biologists
 This page will try to support you for finding the most popular R scripts to handle biological projects. As a case in point, when you try to perform statistical analysis for your data, it is inevitably necessary you follow the right way to finalize the target query. So, on this GitHub page, different types of R scripts will be shared with academic users for enhancing the quality of their researches. Note that most of all scripts uploaded here are free code sources while some others might need to pay for reaching them. 
 
 # Areas of coverage
