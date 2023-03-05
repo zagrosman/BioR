@@ -54,3 +54,51 @@ ggsave("mtcars.pdf", width = 20, height = 20, units = "cm")
 unlink("mtcars.pdf")
 unlink("mtcars.png")
 ```
+
+
+
+# Write .csv files and save analyzed data
+
+```
+library(tidyverse)
+
+data <- mpg
+
+print(data)
+
+write_csv(data, path="data.csv")
+```
+
+# Usage
+
+```
+write_csv(
+  x,
+  file,
+  na = "NA",
+  append = FALSE,
+  col_names = !append,
+  quote = c("needed", "all", "none"),
+  escape = c("double", "backslash", "none"),
+  eol = "\n",
+  num_threads = readr_threads(),
+  progress = show_progress(),
+  path = deprecated(),
+  quote_escape = deprecated()
+)
+```
+
+# Examples
+
+```
+# If only a file name is specified, write_()* will write
+# the file to the current working directory.
+write_csv(mtcars, "mtcars.csv")
+write_tsv(mtcars, "mtcars.tsv")
+
+# If you add an extension to the file name, write_()* will
+# automatically compress the output.
+write_tsv(mtcars, "mtcars.tsv.gz")
+write_tsv(mtcars, "mtcars.tsv.bz2")
+write_tsv(mtcars, "mtcars.tsv.xz")
+```
