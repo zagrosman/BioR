@@ -17,3 +17,23 @@ ggsave("my_plot.png", plot = my_plot, dpi = 300)
 Check your R home directory to see the saved high quality plot. 
 
 ![Hplot](https://user-images.githubusercontent.com/17006122/222015787-9802b259-30e2-42e9-9dc9-7674454edd49.png)
+
+# Usage
+
+```
+ggsave(
+  filename,
+  plot = last_plot(),
+  device = NULL,
+  path = NULL,
+  scale = 1,
+  width = NA,
+  height = NA,
+  units = c("in", "cm", "mm", "px"),
+  dpi = 300,
+  limitsize = TRUE,
+  bg = NULL,
+  ...
+)
+
+``
