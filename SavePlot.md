@@ -36,4 +36,21 @@ ggsave(
   ...
 )
 
-``
+```
+
+# Examples:
+
+```
+ggplot(mtcars, aes(mpg, wt)) +
+  geom_point()
+
+ggsave("mtcars.pdf")
+ggsave("mtcars.png")
+
+ggsave("mtcars.pdf", width = 4, height = 4)
+ggsave("mtcars.pdf", width = 20, height = 20, units = "cm")
+
+# delete files with base::unlink()
+unlink("mtcars.pdf")
+unlink("mtcars.png")
+```
